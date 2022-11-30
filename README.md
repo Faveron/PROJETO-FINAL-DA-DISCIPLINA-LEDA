@@ -10,7 +10,7 @@ Os algorimos de Pilha e Fila foram baseados em dois códigos presentes em
 ## Observações
 - Geral:
   - Para a compilação desses códigos não precisa de muita coisa, somente copiar e colar o arquivo .c(código) e o .h(bibliotecas) para rodar.
-  - Os códigos forem compilados utilizando o compilar ***GNU GCC Compiler***
+  - Os códigos forem compilados utilizando o compilador ***GNU GCC Compiler***
   - IDE utiilizada ***Code::Blocks versão 20.03***
 - Exercício 01: .
   - Explicação sobre a relação entre requisitos e opções do sistema estão explicados em forma de comentário no código.
