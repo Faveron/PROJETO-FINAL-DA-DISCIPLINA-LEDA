@@ -3,7 +3,7 @@
 Esses exercícios tem como base os requisitos que podem ser encontrados no link abaixo
 - [Documento de requisitos](https://docs.google.com/document/d/1VHGm9mtKK1hV7UjA3BKXLku7h1YMADnTJCQs01t_-QQ/edit)
 
-Os algorimos de Pilha e Fila forma baseados em dois códigos presentes em 
+Os algorimos de Pilha e Fila foram baseados em dois códigos presentes em 
 - [Pilha](https://www.youtube.com/watch?v=Q5UZWmjmYCE&ab_channel=PietroMartinsDeOliveira)
 - [Fila](https://www.youtube.com/watch?v=uQjeh1-KXrc&ab_channel=PietroMartinsDeOliveira)
 
