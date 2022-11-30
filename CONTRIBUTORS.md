@@ -2,6 +2,6 @@
 
 Wesley Faveron de Almeida
 
-Basicamente fiz tudo numa tarde de domingo, os cinco primeiros exercicios e começo do 06.
+Basicamente fiz tudo numa tarde de domingo (27/11/22), os cinco primeiros exercicios e começo do 06.
 
-Depois foi refinando o código do exercicio 06 pois o enunciado não ficou muito claro, por isso fui tirar algumas dúviads com o professor Luiz em aula.
+Depois foi refinando o código do exercicio 06 mas como o enunciado não ficou muito claro, fui tirar algumas dúviads com o professor Luiz em aula (29/11/22) e assim consegui terminar o exercício 06.
