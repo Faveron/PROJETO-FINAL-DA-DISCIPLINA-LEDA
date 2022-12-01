@@ -15,10 +15,12 @@ Os algorimos de Pilha e Fila foram baseados em dois códigos presentes em
 - Exercício 01: .
   - Explicação sobre a relação entre requisitos e opções do sistema estão explicados em forma de comentário no código.
   - A busca de um elemento/nó na pilha verifica somente a primeira ocorrência e avisa se foi encontrado e não quantas ocorrências teve.
+  - O número máximo de elementos/nós na pilha foi uma escolha arbitraria, no caso o valor 10.
 - Exercício 02: 
   - Explicação sobre a relação entre requisitos e opções do sistema estão explicados em forma de comentário no código.
   - A busca de um elemento/nó na fila verifica somente a primeira ocorrência e avisa se foi encontrado e não quantas ocorrências teve.
   - Esse código está bem parecido com o da pilha, mas não idêntico pois fiz as adaptações para transformar em fila mas a estrutura num geral é igual.
+  - O número máximo de elementos/nós na pilha foi uma escolha arbitraria, no caso o valor 10.
 - Exercício 03:
   - As duas primeiras pilhas estão sendo geradas com números aleatórios com metade da capacidade de elementos/nós suportados pela pilha e às deixando ordenadas do topo a base em ordem crescente, já a terceira pilha é gerada retirando os valores da primeira e da segunda na ordem do menor para o maior fazendo assim a terceira pilha ficar ordenado do topo a base em ordem decrescente.
   - O método de ordenação escolhido foi ***Selection Sort*** pela facilidade de implementação.
