@@ -29,3 +29,6 @@ Os algorimos de Pilha e Fila foram baseados em dois códigos presentes em
   - A pilha inicial é gerada com números aleatórios até que seja gerado o número zero.
   - As filas são geradas com a retirada dos valores da pilha inicial separando entre par e impar.
 - Exercício 06:
+  - O código desse exercício é bem especifico para esse enunciado e não generalista.
+  - Por uma questão de praticidade escolhi usar uma estrutura de pilha para armazenar o estoque de vinhos, pois assim reaproveitei o código dos exercícios anteriores mas claro fiz as devidas adaptações.
+  - Para resolver o problema de acesso a topo e a base da pilha foi utilizado que quando fosse necessário acessar os dados da base, criei uma pilha auxiliar e armazenada nela os dados da pilha original e com isso o que era topo vira base e o que era base vira topo e assim eu tive acesso ao que fosse necessário.
