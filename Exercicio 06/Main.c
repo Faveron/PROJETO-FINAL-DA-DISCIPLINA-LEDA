@@ -29,14 +29,6 @@ int main()
         do
         {
             opc = lista_operacoes();
-            if(estoque->qty <=0 && opc != 1)
-            {
-                do
-                {
-                    imprimePilha(estoque, estoque->qty);
-                    opc = lista_operacoes();
-                }while(opc != 1);
-            }
             switch (opc)
             {
                 case 0:
@@ -47,25 +39,60 @@ int main()
                     printf("\n\tCadastro efetuado com sucesso");
                     break;
                 case 2:
-                    desempilhar(dadosVinho, estoque);
-                    printf("\n\tVINHO PARA OCASIÃO ESPECIAL\n");
-                    imprimeDadosVinho(dadosVinho);
+                    if(estoque->qty > 0)
+                    {
+                        desempilhar(dadosVinho, estoque);
+                        printf("\n\tVINHO PARA OCASIÃO ESPECIAL\n");
+                        imprimeDadosVinho(dadosVinho);
+                    }
+                    else
+                    {
+                        imprimePilha(estoque, estoque->qty);
+                    }
                     break;
                 case 3:
-                    printf("\n\tVINHO PARA OCASIÃO NÃO ESPECIAL\n");
-                    vinhoOcasiaoNaoEspecial(estoque);
+                    if(estoque->qty > 0)
+                    {
+                        printf("\n\tVINHO PARA OCASIÃO NÃO ESPECIAL\n");
+                        vinhoOcasiaoNaoEspecial(estoque);
+                    }
+                    else
+                    {
+                        imprimePilha(estoque, estoque->qty);
+                    }
                     break;
                 case 4:
-                    printf("\n\n\t  EXISTEM %d VINHOS EM ESTOQUE\n", estoque->qty);
-                    cincoMaisAntigos(estoque);
+                    if(estoque->qty > 0)
+                    {
+                        printf("\n\n\t  EXISTEM %d VINHOS EM ESTOQUE\n", estoque->qty);
+                        cincoMaisAntigos(estoque);
+                    }
+                    else
+                    {
+                        imprimePilha(estoque, estoque->qty);
+                    }
                     break;
                 case 5:
-                    printf("\n\n\t  EXISTEM %d VINHOS EM ESTOQUE\n", estoque->qty);
-                    imprimePilha(estoque, 5);
+                    if(estoque->qty > 0)
+                    {
+                        printf("\n\n\t  EXISTEM %d VINHOS EM ESTOQUE\n", estoque->qty);
+                        imprimePilha(estoque, 5);
+                    }
+                    else
+                    {
+                        imprimePilha(estoque, estoque->qty);
+                    }
                     break;
                 case 6:
-                    printf("\n\n\t  ESTOQUE");
-                    imprimePilha(estoque, estoque->qty);
+                    if(estoque->qty > 0)
+                    {
+                        printf("\n\n\t  ESTOQUE");
+                        imprimePilha(estoque, estoque->qty);
+                    }
+                    else
+                    {
+                        imprimePilha(estoque, estoque->qty);
+                    }
                     break;
                 default:
                     printf("\nOpção( %d )inválido.\n", opc);
